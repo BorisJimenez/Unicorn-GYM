@@ -1,0 +1,16 @@
+:root{
+    --primary-100:#FF6EC7;
+    --primary-200:#de4fa9;
+    --primary-300:#940068;
+    --accent-100:#6E6EFF;
+    --accent-200:#ffffff;
+    --text-100:#FFFFFF;
+    --text-200:#e0e0e0;
+    --bg-100:#F9F9F9;
+    --bg-200:#efefef;
+    --bg-300:#c6c6c6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
