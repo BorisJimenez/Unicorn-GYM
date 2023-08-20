@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/header/header.css">
     <link rel="stylesheet" href="assets/banner/banner.css">
+    <link rel="stylesheet" href="assets/principal/principal.css">
+    <link rel="stylesheet" href="assets/calculadora/calculadora.css">
+    <link rel="stylesheet" href="assets/rodapie/rodapie.css">
 </head>
 <body>
     <header class="header">
@@ -27,23 +30,58 @@
     <main>
         <section class="banner">
             <h2>¡Bienvenida al Unicorn GYM, el lugar donde la magia del fitness se une con la fuerza interior de las mujeres!</h2>
-            <button>Registra tu Avance</button>
+            <a href="#calculadora"><button>¿Cómo está tu peso?</button></a>
         </section>
-        <section>
-            <section>
-                Noticias
+        <section class="principal">
+            <section class="noticias">
+                <h2>Torneo de Powerlifting</h2>
+                <img src="assets/imagenes/powerlifting.png" alt="imagen torneo">
+                <p>Estimadas amantes del fitness y las pesas,
+                    <br><br>
+                    Es un placer para nosotros en Unicorn GYM extenderles una cordial invitación a nuestro emocionante Torneo de Powerlifting exclusivamente para mujeres. Si estás lista para desafiar tus límites, mostrar tu fuerza y formar parte de una comunidad dedicada al empoderamiento femenino, ¡este evento es para ti!
+                    <br><br>
+                    Detalles del evento:
+                    <br><br>
+                    Fecha: 26 de agosto de 2023 <br>
+                    Hora: 9:00 AM - 5:00 PM <br>
+                    Lugar: Unicorn GYM
+                    <br><br>
+                    Nuestro Torneo de Powerlifting es una oportunidad única para que las mujeres muestren su fuerza y habilidades en tres emocionantes disciplinas: sentadillas, press de banca y peso muerto. Además de la competencia en sí, habrá premios increíbles para las primeras tres ganadoras, así como reconocimientos especiales para las participantes que establezcan nuevos récords personales. No importa si eres una principiante o una experta en el powerlifting, ¡este torneo es para todas!
+                    <br><br>
+                    Nuestra misión en Unicorn GYM es brindarte un espacio seguro y acogedor donde puedas desafiar tus propios límites y alcanzar nuevas alturas. Este torneo es una manifestación de nuestro compromiso con la promoción de la fuerza y la determinación femenina.
+                    <br><br>
+                    Las plazas son limitadas, por lo que te animamos a reservar tu lugar lo antes posible. Para registrarte o para obtener más información sobre las tarifas de participación y los detalles específicos del torneo, visitanos en Unicorn GYM.
+                    <br><br>
+                    ¡Esperamos verte en el Torneo de Powerlifting para Mujeres en Unicorn GYM el 26 de agosto de 2023! Prepárate para vivir una jornada llena de energía, camaradería y empoderamiento.
+                    <br><br>
+                    Con fuerza y determinación, <br>
+                    El equipo de Unicorn GYM</p>
             </section>
-            <aside>
-                Promociones
+            <aside class="promociones">
+                <h2>Promociones</h2>
+                <img src="assets/imagenes/Promoción1.png" alt="promocion agosto">
             </aside>
         </section>
-        <section>
-            Calculadora
-        </section>
-        
+        <section class="calculadora" id="calculadora">
+            <div class="calculadora-encabezado">
+                <h2>Calculadora de Indice de Masa Corporal</h2>
+                <p>Te invitamos a usar nuestra herramienta gratuita que te permite calcular tu índice de masa corporal (IMC) y la cantidad de calorías que debes consumir según tu peso, estatura y edad. Solo tienes que ingresar estos datos en los campos correspondientes y presionar el botón de calcular. Así de fácil y rápido. No esperes más y descubre cómo mejorar tu bienestar con nuestra ayuda</p>
+            </div>
+            <form action="#" class="calculadora-form">
+                <label for="">Estatura</label>
+                <input class="calculadora-input" type="number" required step="0.01" id="estatura">
+                <label for="">Peso</label>
+                <input class="calculadora-input" type="number" required step="0.01" id="peso">
+                <label for="">Edad</label>
+                <input class="calculadora-input" type="number" required id="edad">
+                <button id="calculadora">Calcular</button>
+                <input class="calculadora-respuesta" type="text" readonly>
+                <input class="calculadora-respuesta" type="text" readonly>
+            </form>
+        </section>   
     </main>
-    <footer>
-
+    <footer class="rodapie">
+        <h2>Derechos Reservados Unicorn GYM</h2>
     </footer>
     <script src="assets/main.js"></script>
 </body>

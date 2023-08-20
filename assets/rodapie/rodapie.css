@@ -1,0 +1,9 @@
+.rodapie{
+    background-color: var(--bg-200);
+    padding: 2rem;
+}
+
+.rodapie h2{
+    font-size: 1rem;
+    color: var(--primary-100);
+}
