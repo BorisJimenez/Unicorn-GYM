@@ -59,3 +59,26 @@
     margin-top: 1rem;
     outline: none;
 }
+
+.tabla-imc {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabla-imc th, .tabla-imc td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-imc th {
+    background-color: #f2f2f2;
+}
+
+.tabla-imc tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla-imc tr:hover {
+    background-color: #e0e0e0;
