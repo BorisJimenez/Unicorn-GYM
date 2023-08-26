@@ -5,25 +5,6 @@ hamburguesaBtn.addEventListener('click', () => {
     menu.classList.toggle('mostrar');
 });
 
-
-/*const altura = 170;
-const peso = 97;
-const edad = 33;
-const factor = 1.375;
-
-function imc (altura, peso) {
-    let imc = Math.round(peso / ((altura/100)**2));
-    return console.log(imc)
-}
-
-function calorias (altura, peso, edad, factor) {
-    let calorias = Math.round((655 + (9.6*peso))+((1,8*altura)-(4.7*edad))*factor)
-    return console.log(calorias)
-}
-
-imc(altura, peso)
-calorias(altura, peso, edad, factor)*/
-
 const alturaInput = document.querySelector('#estatura');
 const pesoInput = document.querySelector('#peso');
 const edadInput = document.querySelector('#edad');
