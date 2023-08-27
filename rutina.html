@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicorn GYM</title>
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/header/header.css">
+    <link rel="stylesheet" href="assets/rutina/rutina.css">
+    <link rel="stylesheet" href="assets/rodapie/rodapie.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Unicorn GYM</h1>
+        <img src="assets/imagenes/unicornio-rosa.jpeg" alt="logo">
+        <nav class="header-navegador">
+            <button class="header-button">&#9776;</button>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rutina.html">Programa tu Rutina</a></li>
+                <li><a href="avance.html">Registra tu Avance</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="rutina-presentacion">
+            <h2>Programa tu Rutina</h2>
+            <p>En Unicorn GYM, te brindamos la flexibilidad de elegir entre tres emocionantes opciones de entrenamiento: Cardio Enfocado, Fuerza Intensa y Recomposición Corporal. Cada rutina está diseñada pensando en tus objetivos y preferencias únicas. Ya sea que desees mejorar tu resistencia cardiovascular, fortalecer tus músculos o lograr una recomposición corporal, encontrarás la opción perfecta para ti. ¡Empodérate al tomar el control y escoge la rutina que te llevará más cerca de tus metas fitness en nuestro gimnasio exclusivamente para mujeres!</p>
+        </section>
+        <section class="rutina-container">
+            <div class="rutina-option" id="cardio-option">
+              <img src="assets/imagenes/cardio.png" alt="Cardio Enfocado">
+              <div class="rutina-description">
+                <h3>cardio enfocado</h3>
+                <p>Esta rutina está diseñada para mejorar tu resistencia cardiovascular y quemar calorías de manera eficiente. Con ejercicios de alta intensidad y entrenamientos en intervalos, te desafiarás a ti misma y aumentarás tu capacidad cardiovascular. Perfecta para aquellas que buscan mejorar su capacidad aeróbica y perder peso.</p>
+                <button onclick="guardarSeleccion('cardio')">Seleccionar</button>
+              </div>
+            </div>
+            <div class="rutina-option" id="fuerza-option">
+                <img src="assets/imagenes/fuerza.png" alt="Fuerza Intensa">
+                <div class="rutina-description">
+                  <h3>Fuerza Intensa</h3>
+                  <p>Si tu objetivo es aumentar la fuerza y tonificar tus músculos, esta rutina es para ti. Con ejercicios que incluyen levantamiento de pesas y ejercicios de resistencia, fortalecerás tus músculos y mejorarás tu composición corporal. Ideal para mujeres que desean construir una base sólida de fuerza y tener un aspecto más definido.</p>
+                  <button onclick="guardarSeleccion('fuerza')">Seleccionar</button>
+                </div>
+              </div>
+              <div class="rutina-option" id="recomposicion-option">
+                <img src="assets/imagenes/recomposicion.png" alt="Recomposición Corporal">
+                <div class="rutina-description">
+                  <h3>Recomposición Corporal</h3>
+                  <p>Esta rutina combina ejercicios de fuerza con cardio estratégico para ayudarte a transformar tu cuerpo. Ideal para quienes desean reducir grasa corporal y aumentar masa muscular magra. Con un enfoque equilibrado, trabajarás en esculpir tu figura y lograr una apariencia más atlética y definida.</p>
+                  <button onclick="guardarSeleccion('recomposicion')">Seleccionar</button>
+                </div>
+              </div>
+        </section>
+          <div id="tabla-rutina" style="display: none;">
+            <!-- Aquí se mostrará la tabla con la rutina seleccionada -->
+          </div>
+
+
+    </main>
+    <footer class="rodapie">
+        <h2>Derechos Reservados Unicorn GYM</h2>
+    </footer>
+    <script src="assets/main.js"></script>
+</body>
+</html>

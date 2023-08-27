@@ -1,0 +1,60 @@
+.rutina-presentacion {
+    padding: 1.5rem;
+    border: 3px solid var(--primary-100);
+    background-color: var(--bg-200);
+}
+
+.rutina-presentacion h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    color: var(--primary-100);
+}
+
+.rutina-presentacion p{
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.rutina-container {
+    padding: 1.5rem;
+    border: 3px solid var(--primary-100);
+    background-color: var(--bg-200);
+}
+
+.rutina-container h3{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    color: var(--primary-100);
+    text-transform: uppercase;
+}
+
+.rutina-container p{
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.rutina-option{
+    border: 2px solid var(--primary-100);
+    border-radius: 15px;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.rutina-option img{
+    width: 30%;
+    margin: 1rem 0;
+}
+
+.rutina-description button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: var(--primary-100);
+    border: 3px solid  var(--primary-300);
+    border-radius: 10px;
+    color: var(--text-100);
+    width: 50%;
+    align-self: center;
+}
