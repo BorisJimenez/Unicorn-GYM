@@ -58,3 +58,29 @@
     width: 50%;
     align-self: center;
 }
+
+.rutina-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .rutina-table th, .rutina-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: 0.7rem;
+  }
+  
+  .rutina-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .rutina-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .rutina-table tr:hover {
+    background-color: #ddd;
+  }
+  
