@@ -1,6 +1,7 @@
 .rodapie{
     background-color: var(--bg-200);
     padding: 2rem;
+    text-align: center;
 }
 
 .rodapie h2{

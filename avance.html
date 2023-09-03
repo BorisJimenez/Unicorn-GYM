@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicorn GYM</title>
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/header/header.css">
+    <link rel="stylesheet" href="assets/principal/principal.css">
+    <link rel="stylesheet" href="assets/rodapie/rodapie.css">
+    <link rel="stylesheet" href="assets/avance/avance.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Unicorn GYM</h1>
+        <img src="assets/imagenes/unicornio-rosa.jpeg" alt="logo">
+        <nav class="header-navegador">
+            <button class="header-button">&#9776;</button>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rutina.html">Programa tu Rutina</a></li>
+                <li><a href="avance.html">Registra tu Avance</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="avance-presentacion">
+            <h2>Registra tu Avance</h2>
+            <p>¡Bienvenida a la sección "Registra Tu Avance" de Unicorn GYM, un espacio exclusivamente diseñado para mujeres. Aquí, puedes llevar un registro diario de tu compromiso con tu rutina de entrenamiento. Marca cada día en tu camino hacia la fortaleza y el bienestar. ¡Celebra tus logros y avances en un ambiente que valora tu dedicación y esfuerzo! Comienza a escribir tu historia de éxito hoy mismo.</p>
+        </section>
+        <section class="avance-container">
+            <div class="avance-option" id="cardio-option-avance">
+              <img src="assets/imagenes/cardio.png" alt="Cardio Enfocado">
+              <div class="avance-description">
+                <h3>cardio enfocado</h3>
+                <button onclick="guardarSeleccionAvance('cardio')">Registrar Avance</button>
+              </div>
+            </div>
+            <div class="avance-option" id="fuerza-option-avance">
+                <img src="assets/imagenes/fuerza.png" alt="Fuerza Intensa">
+                <div class="avance-description">
+                  <h3>Fuerza Intensa</h3>
+                  <button onclick="guardarSeleccionAvance('fuerza')">Registrar Avance</button>
+                </div>
+              </div>
+              <div class="avance-option" id="recomposicion-option-avance">
+                <img src="assets/imagenes/recomposicion.png" alt="Recomposición Corporal">
+                <div class="avance-description">
+                  <h3>Recomposición Corporal</h3>
+                  <button onclick="guardarSeleccionAvance('recomposicion')">Registrar Avance</button>
+                </div>
+              </div>
+        </section>
+
+        <section id="avance-container" style="display: none;">
+            
+        </section>
+    </main>
+    <footer class="rodapie">
+        <h2>Derechos Reservados Unicorn GYM</h2>
+    </footer>
+    <script src="assets/main.js"></script>
+</body>
+</html>

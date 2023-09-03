@@ -166,15 +166,110 @@ function generarTabla(rutina) {
   }
 
 function guardarSeleccion(rutina) {
-    // Ocultar las opciones de rutina y mostrar la tabla con la rutina seleccionada
     document.getElementById('cardio-option').style.display = 'none';
     document.getElementById('fuerza-option').style.display = 'none';
     document.getElementById('recomposicion-option').style.display = 'none';
-    // Ocultar las otras opciones de rutina
-    // Mostrar la tabla con la rutina seleccionada
     document.getElementById('tabla-rutina').style.display = 'block';
-    // Aquí podrías generar y mostrar la tabla con la rutina según la selección
     let tablaContenido = generarTabla(rutina);
     document.getElementById('tabla-rutina').innerHTML = tablaContenido;
   } 
   
+function registroAvance(avance) {
+  let registroAvance = '';
+  if (avance === 'cardio'){
+    registroAvance = `
+      <h3>cardio enfocado</h3>
+      <form>
+        <label>
+          <input type="checkbox" name="lunes"> Lunes
+        </label>
+        <label>
+          <input type="checkbox" name="martes"> Martes
+        </label>
+        <label>
+          <input type="checkbox" name="miércoles"> Miércoles
+        </label>
+        <label>
+          <input type="checkbox" name="jueves"> Jueves
+        </label>
+        <label>
+          <input type="checkbox" name="viernes"> Viernes
+        </label>
+        <label>
+          <input type="checkbox" name="sábado"> Sábado
+        </label>
+        <label>
+          <input type="checkbox" name="domingo"> Domingo
+        </label>
+        <button type="submit">Guardar</button>
+      </form>
+    `
+  } else if (avance === 'fuerza') {
+    registroAvance = `
+      <h3>fuerza intensa</h3>
+      <form>
+        <label>
+          <input type="checkbox" name="lunes"> Lunes
+        </label>
+        <label>
+          <input type="checkbox" name="martes"> Martes
+        </label>
+        <label>
+          <input type="checkbox" name="miércoles"> Miércoles
+        </label>
+        <label>
+          <input type="checkbox" name="jueves"> Jueves
+        </label>
+        <label>
+          <input type="checkbox" name="viernes"> Viernes
+        </label>
+        <label>
+          <input type="checkbox" name="sábado"> Sábado
+        </label>
+        <label>
+          <input type="checkbox" name="domingo"> Domingo
+        </label>
+        <button type="submit">Guardar</button>
+      </form>
+    `
+  } else if (avance === 'recomposicion') {
+    registroAvance = `
+      <h3>recomposición corporal</h3>
+      <form>
+        <label>
+          <input type="checkbox" name="lunes"> Lunes
+        </label>
+        <label>
+          <input type="checkbox" name="martes"> Martes
+        </label>
+        <label>
+          <input type="checkbox" name="miércoles"> Miércoles
+        </label>
+        <label>
+          <input type="checkbox" name="jueves"> Jueves
+        </label>
+        <label>
+          <input type="checkbox" name="viernes"> Viernes
+        </label>
+        <label>
+          <input type="checkbox" name="sábado"> Sábado
+        </label>
+        <label>
+          <input type="checkbox" name="domingo"> Domingo
+        </label>
+        <button type="submit">Guardar</button>
+      </form>
+    `
+  }
+
+  return registroAvance;
+}
+
+function guardarSeleccionAvance(avance){
+  document.getElementById('cardio-option-avance').style.display = 'none';
+  document.getElementById('fuerza-option-avance').style.display = 'none';
+  document.getElementById('recomposicion-option-avance').style.display = 'none';
+  document.getElementById('avance-container').style.display = 'block';
+  let registroContenido = registroAvance(avance);
+  document.getElementById('avance-container').innerHTML = registroContenido;
+}
