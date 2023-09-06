@@ -1,86 +1,110 @@
-.rutina-presentacion {
-    padding: 1.5rem;
-    border: 3px solid var(--primary-100);
-    background-color: var(--bg-200);
+@media screen and (min-width: 360px) {
+    .rutina-presentacion {
+        padding: 1.5rem;
+        border: 3px solid var(--primary-100);
+        background-color: var(--bg-200);
+    }
+
+    .rutina-presentacion h2{
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+        color: var(--primary-100);
+    }
+
+    .rutina-presentacion p{
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+
+    .rutina-container {
+        padding: 1.5rem;
+        border: 3px solid var(--primary-100);
+        background-color: var(--bg-200);
+    }
+
+    .rutina-container h3{
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+        color: var(--primary-100);
+        text-transform: uppercase;
+    }
+
+    .rutina-container p{
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+
+    .rutina-option{
+        border: 2px solid var(--primary-100);
+        border-radius: 15px;
+        margin: 1rem 0;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .rutina-option img{
+        width: 30%;
+        margin: 1rem 0;
+    }
+
+    .rutina-description button{
+        padding: 0.5rem;
+        font-size: 1rem;
+        background-color: var(--primary-100);
+        border: 3px solid  var(--primary-300);
+        border-radius: 10px;
+        color: var(--text-100);
+        width: 50%;
+        align-self: center;
+    }
+
+    .rutina-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    
+    .rutina-table th, .rutina-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+        font-size: 0.55rem;
+    }
+    
+    .rutina-table th {
+        background-color: #f2f2f2;
+    }
+    
+    .rutina-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    .rutina-table tr:hover {
+        background-color: #ddd;
+    }
 }
 
-.rutina-presentacion h2{
-    text-align: center;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-    color: var(--primary-100);
+@media screen and (min-width: 768px) {
+    .rutina-presentacion h2{
+        font-size: 1.5rem;
+    }
+    .rutina-presentacion p{
+        font-size: 1.1rem;
+    }
+    .rutina-container h3{
+        font-size: 1.5rem;
+    }
+    .rutina-container p{
+        font-size: 1.1rem;
+    }
+    .rutina-description button{
+        padding: 0.8rem;
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+    .rutina-table th, .rutina-table td {
+        font-size: 0.8rem;
+    }
 }
-
-.rutina-presentacion p{
-    font-size: 0.9rem;
-    text-align: justify;
-}
-
-.rutina-container {
-    padding: 1.5rem;
-    border: 3px solid var(--primary-100);
-    background-color: var(--bg-200);
-}
-
-.rutina-container h3{
-    text-align: center;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-    color: var(--primary-100);
-    text-transform: uppercase;
-}
-
-.rutina-container p{
-    font-size: 0.9rem;
-    text-align: justify;
-}
-
-.rutina-option{
-    border: 2px solid var(--primary-100);
-    border-radius: 15px;
-    margin: 1rem 0;
-    padding: 0.5rem;
-    text-align: center;
-}
-
-.rutina-option img{
-    width: 30%;
-    margin: 1rem 0;
-}
-
-.rutina-description button{
-    padding: 0.5rem;
-    font-size: 1rem;
-    background-color: var(--primary-100);
-    border: 3px solid  var(--primary-300);
-    border-radius: 10px;
-    color: var(--text-100);
-    width: 50%;
-    align-self: center;
-}
-
-.rutina-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  .rutina-table th, .rutina-table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-    font-size: 0.55rem;
-  }
-  
-  .rutina-table th {
-    background-color: #f2f2f2;
-  }
-  
-  .rutina-table tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  .rutina-table tr:hover {
-    background-color: #ddd;
-  }
-

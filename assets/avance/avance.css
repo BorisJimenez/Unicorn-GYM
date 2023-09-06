@@ -1,90 +1,111 @@
-.avance-presentacion {
-    padding: 1.5rem;
-    border: 3px solid var(--primary-100);
-    background-color: var(--bg-200);
+@media screen and (min-width: 360px) {
+    .avance-presentacion {
+        padding: 1.5rem;
+        border: 3px solid var(--primary-100);
+        background-color: var(--bg-200);
+    }
+
+    .avance-presentacion h2{
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+        color: var(--primary-100);
+    }
+
+    .avance-presentacion p{
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+
+    .avance-container {
+        padding: 1.5rem;
+        border: 3px solid var(--primary-100);
+        background-color: var(--bg-200);
+    }
+
+    .avance-container h3{
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+        color: var(--primary-100);
+        text-transform: uppercase;
+    }
+
+    .avance-option{
+        border: 2px solid var(--primary-100);
+        border-radius: 15px;
+        margin: 1rem 0;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .avance-option img{
+        width: 30%;
+        margin: 1rem 0;
+    }
+
+    .avance-description button{
+        padding: 0.5rem;
+        font-size: 1rem;
+        background-color: var(--primary-100);
+        border: 3px solid  var(--primary-300);
+        border-radius: 10px;
+        color: var(--text-100);
+        width: 50%;
+        align-self: center;
+    }
+
+    #avance-container {
+        padding: 1.5rem;
+        border: 3px solid var(--primary-100);
+        background-color: var(--bg-200);
+    }
+
+    #avance-container h3 {
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+        color: var(--primary-100);
+        text-transform: uppercase;
+    }
+
+    #avance-container form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #avance-container form label{
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+
+    #avance-container form button{
+        padding: 0.5rem;
+        font-size: 1rem;
+        background-color: var(--primary-100);
+        border: 3px solid  var(--primary-300);
+        border-radius: 10px;
+        color: var(--text-100);
+        width: 50%;
+        align-self: center;
+    }
 }
 
-.avance-presentacion h2{
-    text-align: center;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-    color: var(--primary-100);
-}
+@media screen and (min-width: 768px) {
+    .avance-presentacion h2{
+        font-size: 1.5rem;
+    }
 
-.avance-presentacion p{
-    font-size: 0.9rem;
-    text-align: justify;
-}
+    .avance-presentacion p{
+        font-size: 1.1rem;
+    }
 
-.avance-container {
-    padding: 1.5rem;
-    border: 3px solid var(--primary-100);
-    background-color: var(--bg-200);
-}
-
-.avance-container h3{
-    text-align: center;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-    color: var(--primary-100);
-    text-transform: uppercase;
-}
-
-.avance-option{
-    border: 2px solid var(--primary-100);
-    border-radius: 15px;
-    margin: 1rem 0;
-    padding: 0.5rem;
-    text-align: center;
-}
-
-.avance-option img{
-    width: 30%;
-    margin: 1rem 0;
-}
-
-.avance-description button{
-    padding: 0.5rem;
-    font-size: 1rem;
-    background-color: var(--primary-100);
-    border: 3px solid  var(--primary-300);
-    border-radius: 10px;
-    color: var(--text-100);
-    width: 50%;
-    align-self: center;
-}
-
-#avance-container {
-    padding: 1.5rem;
-    border: 3px solid var(--primary-100);
-    background-color: var(--bg-200);
-}
-
-#avance-container h3 {
-    text-align: center;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-    color: var(--primary-100);
-    text-transform: uppercase;
-}
-
-#avance-container form {
-    display: flex;
-    flex-direction: column;
-}
-
-#avance-container form label{
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-}
-
-#avance-container form button{
-    padding: 0.5rem;
-    font-size: 1rem;
-    background-color: var(--primary-100);
-    border: 3px solid  var(--primary-300);
-    border-radius: 10px;
-    color: var(--text-100);
-    width: 50%;
-    align-self: center;
+    #avance-container form button{
+        font-size: 1.2rem;
+    }
+    .avance-description button{
+        padding: 0.8rem;
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
 }
