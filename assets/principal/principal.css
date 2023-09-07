@@ -104,3 +104,15 @@
         font-size: 1.1rem;
     }
 }
+
+@media screen and (min-width: 1300px) {
+    .principal{
+        flex-direction: row;
+    }
+    .noticias{
+        width: 60%;
+    }
+    .promociones{
+        width: 40%;
+    }
+}

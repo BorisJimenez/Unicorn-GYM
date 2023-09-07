@@ -104,3 +104,18 @@
         font-size: 1rem;
     }
 }
+
+@media screen and (min-width: 1300px) {
+    .calculadora{
+        align-items: center;
+    }
+    .calculadora-encabezado{
+        width: 50%;
+    }
+    .calculadora-form{
+        width: 50%;
+    }
+    .tabla-imc {
+        width: 50%;
+    }
+}

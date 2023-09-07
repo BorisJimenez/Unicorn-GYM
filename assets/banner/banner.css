@@ -27,3 +27,10 @@
         color: var(--text-100);
     }
 }
+
+@media screen and (min-width: 1300px) {
+    .banner{
+        justify-content: end;
+        padding-bottom: 3rem;
+    }
+}

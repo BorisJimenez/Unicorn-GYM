@@ -78,3 +78,22 @@
         width: 200px;
     }  
 }
+
+@media screen and (min-width: 1300px) {
+    .header img{
+        display: none;
+    }
+    .header h1{
+        font-size: 2.5rem;
+    }
+    .header-button {
+        display: none;
+    }
+    .menu {
+        display: block;
+        display: flex;
+    }
+    .header-navegador a{
+        font-size: 1.5rem;
+    }  
+}
