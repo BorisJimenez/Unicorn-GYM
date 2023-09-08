@@ -96,4 +96,7 @@
     .header-navegador a{
         font-size: 1.5rem;
     }  
+    .li{
+        display: none;
+    }
 }
